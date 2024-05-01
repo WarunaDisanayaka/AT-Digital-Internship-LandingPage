@@ -2,6 +2,14 @@
   --primary-color: #6B3CC9;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body{
+  margin: 0;
+
   font-family: "Inter",sans-serif;
 }
