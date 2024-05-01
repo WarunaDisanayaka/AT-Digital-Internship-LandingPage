@@ -1,7 +1,17 @@
 .navbar{
     background-color:  var(--primary-color) !important;
+    height: 77px;
+}
+
+.navbar-nav{
+    
 }
 
 .nav-link {
     color: white !important;
+    font-size: 14px;
  }
+.navbar-brand img{
+    height: 36.11px;
+    width: 238.89px;
+}

@@ -1,3 +1,7 @@
 :root{
   --primary-color: #6B3CC9;
 }
+
+body{
+  font-family: "Inter",sans-serif;
+}
