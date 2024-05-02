@@ -1,14 +1,30 @@
-.hero-section{
+.hero-section {
     background-image: url('../../assets/HeroImage.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
-    height: 700px; 
-    width: 100%; 
- }
- 
- .hero-section img{
- 
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
 
- }
- 
+
+@media (max-width: 375px) {
+    .hero-section{
+        width: 375px;
+        height: 218px;
+    }
+
+  }
+  
+  @media (min-width: 375px) and (max-width: 767px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1439px) {
+  }
+  
+  @media (min-width: 1440px) {
+  }
+  

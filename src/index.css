@@ -1,7 +1,6 @@
 :root{
   --primary-color: #6B3CC9;
   --secondary-color: #F28D35;
-
 }
 
 *,
@@ -12,6 +11,28 @@
 
 body{
   margin: 0;
-
   font-family: "Inter",sans-serif;
+}
+
+
+
+
+@media (max-width: 375px) {
+  body{
+    overflow-x: auto;
+  }
+
+
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+}
+
+@media (min-width: 1440px) {
 }

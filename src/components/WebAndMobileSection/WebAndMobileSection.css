@@ -1,0 +1,86 @@
+.WebAndMobileSection {
+    position: absolute;
+    width: 896px;
+    height: 346px;
+    top: 857px;
+    left: 188px;
+    gap: 108px;
+  }
+  
+  .WebAndMobileSection-image img{
+    width: 414px;
+    height: 414px;
+  }
+
+  .WebAndMobileSection-content{
+    margin-top: 25%;
+    width: 542px;
+    height: 187px;
+    gap: 20px;
+  }
+
+  .WebAndMobileSection-content .heading h4{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+}
+
+  .WebAndMobileSection-content .content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+  }
+
+
+
+  @media (max-width: 375px) {
+    .WebAndMobileSection{
+        top: 649px      ;
+        width: 335px;
+        height: 572.82px;
+        left: 20px;
+    }
+
+
+  .WebAndMobileSection-image img{
+    width: 275px;
+    height: 275px;
+  }
+
+
+  .WebAndMobileSection-content{
+    width: 335px;
+    height: 277px;
+    gap: 20px;
+  }
+
+  .WebAndMobileSection-content .heading h4{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+}
+
+  .WebAndMobileSection-content .content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    width: 335px;
+  }
+
+  }
+  
+  @media (min-width: 375px) and (max-width: 767px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1439px) {
+  }
+  
+  @media (min-width: 1440px) {
+  }

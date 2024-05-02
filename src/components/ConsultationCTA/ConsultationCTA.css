@@ -1,10 +1,10 @@
 .box {
     position: absolute;
-    width: 630px; /* Fixed width */
+    width: 630px;
     top: 412px;
     left: 80px;
     padding: 24px 40px 32px 40px;
-    gap: 20px; /* If this is for a grid or flex container */
+    gap: 20px; 
     background-image: linear-gradient(to left, #1CBDDD 0%, #4DCA79 100%);
   }
 
@@ -20,7 +20,41 @@
   
   .cta-button{
     height: 38px;
-    width: 224px;
+    width: 228px;
     border-radius: 4px ;
     gap: 8px;
   }
+
+
+
+  @media (max-width: 375px) {
+    .box{
+        width: 375px;
+        left: auto;
+        top: 294px;
+     
+    }
+   
+  .box .text{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+   
+    
+      }
+
+  }
+  
+  @media (min-width: 375px) and (max-width: 767px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1439px) {
+  }
+  
+  @media (min-width: 1440px) {
+  }
+  
