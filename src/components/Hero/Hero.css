@@ -2,12 +2,13 @@
     background-image: url('../../assets/HeroImage.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-    height: 700px; /* You can adjust this height as needed */
-    width: 100%; /* Set width to 100% to fill the entire width of the screen */
+    background-repeat: no-repeat; 
+    height: 700px; 
+    width: 100%; 
  }
  
  .hero-section img{
-    /* If you want to style any <img> element inside .hero-section */
+ 
+
  }
  
