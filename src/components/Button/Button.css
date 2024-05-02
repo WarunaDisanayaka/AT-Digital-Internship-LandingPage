@@ -1,4 +1,5 @@
-button{
+.btn{
     background-color:  var(--secondary-color) !important;
     border: none !important;
+    font-weight: 700 !important;
 }

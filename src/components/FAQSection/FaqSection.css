@@ -1,0 +1,55 @@
+.faq-section {
+    position: absolute;
+    width: 896px;
+    height: 392px;
+    top: 1711px;
+    left: 60px;
+    gap: 28px;
+}
+
+.faq-section h2 {
+    margin-left: 50%;
+    width: 389px;
+    height: 33px;
+    gap: 0px;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: var(--primary-color);
+
+}
+
+
+
+
+@media (max-width: 375px) {
+  .faq-section{
+      top: 1915px;
+      width: 334px;
+      height: 572.82px;
+      left: 20px;
+
+  }
+
+
+.faq-section h2 {
+  width: 334px;
+  margin-left:0rem;
+
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+}
+
+@media (min-width: 1440px) {
+}
