@@ -1,19 +1,26 @@
 .box {
     position: absolute;
     width: 630px; /* Fixed width */
-    height: auto; /* Allow height to adjust based on content */
-    max-height: 306px; /* Maximum height */
-    top: 354px;
+    top: 412px;
     left: 80px;
     padding: 24px 40px 32px 40px;
     gap: 20px; /* If this is for a grid or flex container */
     background-image: linear-gradient(to left, #1CBDDD 0%, #4DCA79 100%);
-    margin-top: 5rem;
   }
 
   .box .text{
     font-size: 48px;
+    line-height: 48px;
     font-weight: 700;
     color: #FFFFFF;
-  }
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+      }
   
+  .cta-button{
+    height: 38px;
+    width: 224px;
+    border-radius: 4px ;
+    gap: 8px;
+  }
